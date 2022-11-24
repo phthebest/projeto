@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#menu ul {
+    text-align: center;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a{
+padding: 12px 10px;
+font-size: 22px;
+background-color: wheat;
+color: brown;
+text-decoration: none;
+border-radius: 5px;
+}
+
+#menu ul li a:hover{
+    background-color: brown;
+    color: wheat;
+}
+
+#cardapio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+#cardapio img {
+    width: 350px;
+    height: 250px;
+}
+#item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(245, 222, 179);
+    margin: 10px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#item h2 {
+    padding: 10px;
+    background-color: white;
+    color: brown;
+    border-radius: 10px;
+}
+#item button {
+    background-color: brown;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color:  wheat;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#item button:hover{
+    background-color: rgb(200, 87, 87);
+}
